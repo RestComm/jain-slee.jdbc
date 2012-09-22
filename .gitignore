@@ -25,5 +25,6 @@ ehthumbs.db
 Thumbs.db
 
 # SLEE
+${release.dir}
 resources/jdbc/docs/sources-mobicents/src/
 resources/jdbc/docs/sources-telscale/src/
