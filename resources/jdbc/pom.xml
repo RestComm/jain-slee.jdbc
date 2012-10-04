@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.mobicents.servers.jainslee.jdbc</groupId>
 		<artifactId>mobicents-slee-jdbc</artifactId>
-		<version>6.1.0-TelScale-SNAPSHOT</version>
+		<version>6.1.1.GA-TelScale</version>
 		<relativePath>../..</relativePath>
 	</parent>
 
