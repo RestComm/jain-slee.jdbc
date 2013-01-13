@@ -26,4 +26,5 @@ Thumbs.db
 
 # SLEE
 resources/jdbc/docs/sources-mobicents/src/
-resources/jdbc/docs/sources-telscale/src/
+${env.JBOSS_HOME}
+${release.dir}
