@@ -84,7 +84,7 @@
 					Connection connection = context.getConnection();
 					PreparedStatement preparedStatement = connection
 							.prepareStatement("INSERT INTO TestTable VALUES(?)");
-					preparedStatement.setString(1, "Mobicents");
+					preparedStatement.setString(1, "Restcomm");
 					return true;
 				} catch (Exception e) {
 					tracer.severe("faile to execute task", e);

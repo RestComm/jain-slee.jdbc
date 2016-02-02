@@ -9,6 +9,6 @@
 
 	<title>Clustering</title>
 
-	<para>The &THIS.RA; Resource Adaptor is cluster aware, it supports Activity replication, which means that any application instance may retrieve and interact with any &THIS.RA; Activity, in any node in a Mobicents SLEE cluster. The RA defines no failover mechanisms.</para>
+	<para>The &THIS.RA; Resource Adaptor is cluster aware, it supports Activity replication, which means that any application instance may retrieve and interact with any &THIS.RA; Activity, in any node in a Restcomm SLEE cluster. The RA defines no failover mechanisms.</para>
 	
 </chapter>
