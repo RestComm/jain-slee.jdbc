@@ -18,9 +18,9 @@
 	</modules>
 		
 	<scm>
-		<connection>scm:git:https://code.google.com/p/jain-slee.jdbc/</connection>
-		<developerConnection>scm:git:https://code.google.com/p/jain-slee.jdbc/</developerConnection>
-		<url>https://code.google.com/p/jain-slee.jdbc/</url>
+		<connection>scm:git:https://github.com/RestComm/jain-slee.jdbc.git</connection>
+		<developerConnection>scm:git:git@github.com:RestComm/jain-slee.jdbc.git</developerConnection>
+		<url>https://github.com/RestComm/jain-slee.jdbc</url>
 	</scm>     
 			
 	<profiles>
