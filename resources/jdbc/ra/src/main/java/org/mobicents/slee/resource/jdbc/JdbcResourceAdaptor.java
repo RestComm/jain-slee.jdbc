@@ -413,6 +413,24 @@ public class JdbcResourceAdaptor implements ResourceAdaptor {
 					if (tracer.isFineEnabled()) {
 						tracer.fine("failed to complete task execution", e);
 					}
+
+					try {
+						// rolling back transaction if failed
+						if (txManager.getTransaction() != null) {
+							if (tracer.isFineEnabled()) {
+								tracer.fine("transaction " + txManager.getTransaction().toString()
+										+ " has status " + txManager.getTransaction().getStatus());
+							}
+
+							txManager.rollback();
+						}
+					}
+					catch (Exception e1) {
+						if (tracer.isFineEnabled()) {
+							tracer.fine("failure in transaction rollback", e1);
+						}
+					}
+
 					// build event
 					Object event = new JdbcTaskExecutionThrowableEventImpl(e,
 							jdbcTask);
