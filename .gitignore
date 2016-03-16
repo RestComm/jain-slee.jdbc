@@ -4,11 +4,11 @@
 
 # IDE #
 ###########
-.classpath
-.project
-.settings
-.idea
-.iml
+*.classpath
+*.project
+*.settings
+*.idea
+*.iml
 
 # Maven #
 #########
