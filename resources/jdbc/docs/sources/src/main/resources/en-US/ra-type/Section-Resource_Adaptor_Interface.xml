@@ -9,11 +9,11 @@
 
 	<title>Resource Adaptor Interface</title>
 
-	<para>The &THIS.RA; Resource Adaptor interface, of type <literal>org.mobicents.slee.resource.jdbc.JdbcResourceAdaptorSbbInterface</literal>, may be used by applications to create RA activities, and retrieve JDBC Connections, its interface is defined as follows:</para>
+	<para>The &THIS.RA; Resource Adaptor interface, of type <literal>JdbcResourceAdaptorSbbInterface</literal>, may be used by applications to create RA activities, and retrieve JDBC Connections, its interface is defined as follows:</para>
 	
 	<programlisting language="Java" role="JAVA">
 		<![CDATA[
-package org.mobicents.slee.resource.jdbc;
+package org.restcomm.slee.resource.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;

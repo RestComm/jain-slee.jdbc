@@ -9,7 +9,7 @@
 
 	<title>Activities</title>
 
-	<para>The single activity object for &THIS.RA; Resource Adaptor is the <literal>org.mobicents.slee.resource.jdbc.JdbcActivity</literal> interface. Through the activity an SBB can execute JDBC tasks, and receive the related task execution results asynchronously through events on it. Due to the nature of SLEE activities, this RA activity acts like a queue of requests, allowing the processing of their responses - the events- in a serialized way</para>
+	<para>The single activity object for &THIS.RA; Resource Adaptor is the <literal>JdbcActivity</literal> interface. Through the activity an SBB can execute JDBC tasks, and receive the related task execution results asynchronously through events on it. Due to the nature of SLEE activities, this RA activity acts like a queue of requests, allowing the processing of their responses - the events- in a serialized way</para>
 	
 	<para>An activity starts on demand by an SBB, through the RA SBB Interface, and it ends when an SBB invokes its <literal>endActivity()</literal> method.</para>
 	
@@ -17,9 +17,9 @@
 	
 	<programlisting language="Java" role="JAVA">
 		<![CDATA[
-package org.mobicents.slee.resource.jdbc;
+package org.restcomm.slee.resource.jdbc;
 
-import org.mobicents.slee.resource.jdbc.task.JdbcTask;
+import JdbcTask;
 
 public interface JdbcActivity {
 
