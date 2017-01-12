@@ -27,7 +27,7 @@
 		<config-property>
         	<config-property-name>DATASOURCE_JNDI_NAME</config-property-name>
             <config-property-type>java.lang.String</config-property-type>
-            <config-property-value>java:DefaultDS</config-property-value>
+            <config-property-value>java:jboss/datasources/ExampleDS</config-property-value>
         </config-property>
         
         <config-property>
