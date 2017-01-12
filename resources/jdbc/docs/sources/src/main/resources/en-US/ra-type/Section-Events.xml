@@ -31,16 +31,16 @@
 			<tbody>
 				<row>
 					<entry>Jdbc Task Execution Throwable Event</entry>
-					<entry>org.mobicents</entry>
+					<entry>org.restcomm</entry>
 					<entry>1.0</entry>
-					<entry>org.mobicents. slee.resource. jdbc.event. Jdbc Task Execution Throwable Event</entry>					
+					<entry>org.restcomm. slee.resource. jdbc.event. Jdbc Task Execution Throwable Event</entry>
 					<entry>Provides the exception or error which was thrown in a unsuccessful task execution.</entry>
 				</row>
 				<row>
 					<entry>Simple Jdbc Task Result Event</entry>
-					<entry>org.mobicents</entry>
+					<entry>org.restcomm</entry>
 					<entry>1.0</entry>
-					<entry>org.mobicents. slee.resource. jdbc.event. Simple Jdbc Task Result Event</entry>					
+					<entry>org.restcomm. slee.resource. jdbc.event. Simple Jdbc Task Result Event</entry>
 					<entry>Default event type which results from task execution. This event type is used for tasks extending the abstract <literal>SimpleJdbcTask</literal>.</entry>
 				</row>
 			</tbody>
