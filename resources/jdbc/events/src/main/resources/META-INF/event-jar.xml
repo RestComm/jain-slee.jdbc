@@ -5,25 +5,25 @@
 
 	<library-ref>
 		<library-name>jdbc-ra-library</library-name>
-		<library-vendor>org.mobicents.resources</library-vendor>
+		<library-vendor>org.restcomm.resources</library-vendor>
 		<library-version>1.0</library-version>
 	</library-ref>
 	
 	<event-definition>
 		<event-type-name>SimpleJdbcTaskResultEvent</event-type-name>
-		<event-type-vendor>org.mobicents</event-type-vendor>
+		<event-type-vendor>org.restcomm</event-type-vendor>
 		<event-type-version>1.0</event-type-version>
 		<event-class-name>
-			org.mobicents.slee.resource.jdbc.task.simple.SimpleJdbcTaskResultEvent
+			org.restcomm.slee.resource.jdbc.task.simple.SimpleJdbcTaskResultEvent
 		</event-class-name>
 	</event-definition>
 
 	<event-definition>
 		<event-type-name>JdbcTaskExecutionThrowableEvent</event-type-name>
-		<event-type-vendor>org.mobicents</event-type-vendor>
+		<event-type-vendor>org.restcomm</event-type-vendor>
 		<event-type-version>1.0</event-type-version>
 		<event-class-name>
-			org.mobicents.slee.resource.jdbc.event.JdbcTaskExecutionThrowableEvent
+			org.restcomm.slee.resource.jdbc.event.JdbcTaskExecutionThrowableEvent
 		</event-class-name>
 	</event-definition>
 	

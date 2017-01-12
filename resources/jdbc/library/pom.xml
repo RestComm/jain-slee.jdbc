@@ -3,8 +3,8 @@
 	
 	<parent>
 		<artifactId>restcomm-slee-ra-jdbc</artifactId>
-		<groupId>org.mobicents.resources</groupId>
-		<version>2.8.0-SNAPSHOT</version>
+		<groupId>org.restcomm.resources</groupId>
+		<version>3.0.0-SNAPSHOT</version>
 	</parent>
 	
 	<artifactId>restcomm-slee-ra-jdbc-library</artifactId>
@@ -32,7 +32,7 @@
 				</executions>
 				<configuration>
 					<library-name>jdbc-ra-library</library-name>
-					<library-vendor>org.mobicents.resources</library-vendor>
+					<library-vendor>org.restcomm.resources</library-vendor>
 					<library-version>1.0</library-version>
 				</configuration>
 			</plugin>
