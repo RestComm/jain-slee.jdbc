@@ -13,7 +13,7 @@
 			
 	<properties>
 		<THIS.PLATFORM>Restcomm</THIS.PLATFORM>
-		<JEE.PLATFORM>JBoss Application Server</JEE.PLATFORM>
+		<JEE.PLATFORM>WildFly</JEE.PLATFORM>
 		<THIS.ISSUE_TRACKER_URL>https://github.com/RestComm/jain-slee.${THIS.PACKAGE_NAME}/issues</THIS.ISSUE_TRACKER_URL>
 		<THIS.PACKAGE_NAME>jdbc</THIS.PACKAGE_NAME>
 		<THIS.SOURCE_CODE_URL>https://github.com/RestComm/jain-slee.${THIS.PACKAGE_NAME}/</THIS.SOURCE_CODE_URL>
