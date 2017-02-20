@@ -71,7 +71,7 @@
 		<programlisting>
 		[usr]$ ant
 		</programlisting>
-		<para>The script will copy the RA deployable unit jar to the <literal>default</literal> &THIS.PLATFORM; JAIN SLEE server profile deploy directory, to deploy to another server profile use the argument <literal>-Dnode=</literal>.</para>
+		<para>The script will copy the RA deployable unit jar to the default deploy folder <literal>standalone/deployments</literal>.</para>
 	</section>
 	
 	<section id="uninstall">
@@ -80,7 +80,7 @@
 		<programlisting>
 		[usr]$ ant undeploy
 		</programlisting>
-		<para>The script will delete the RA deployable unit jar from the <literal>default</literal> &THIS.PLATFORM; JAIN SLEE server profile deploy directory, to undeploy from another server profile use the argument <literal>-Dnode=</literal>.</para>
+		<para>The script will delete the RA deployable unit jar from the default deploy folder <literal>standalone/deployments</literal>.</para>
 	</section>			
 	
 </chapter>

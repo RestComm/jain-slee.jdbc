@@ -26,7 +26,7 @@
           <entry>DATASOURCE_ JNDI _NAME</entry>
           <entry>the JNDI name used to retrieve the Datasource</entry>
           <entry>java.lang.String</entry>
-          <entry>java:DefaultDS</entry>
+          <entry>java:jboss/datasources/ExampleDS</entry>
         </row>
         <row>
           <entry>EXECUTOR_ SERVICE _THREADS</entry>

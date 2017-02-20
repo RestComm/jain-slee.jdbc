@@ -72,7 +72,7 @@
 
 		<title>Execute a Task</title>
 
-		<para>The following code examples the creation of a concrete<literal>SimpleJdbcTask</literal> implementation and the request for its execution on a <literal>JdbcActivity</literal>:</para>
+		<para>The following code examples the creation of a concrete <literal>SimpleJdbcTask</literal> implementation and the request for its execution on a <literal>JdbcActivity</literal>:</para>
 		
 		<programlisting language="Java" role="JAVA">
 			<![CDATA[
