@@ -45,7 +45,7 @@
 	}]]>
 		</programlisting>
 		
-		<para>The <literal>raEntityLinkName</literal> is the link name of the RA entity to use. The link to the default RA entity, use the link name <literal>JDBCRA</literal>..</para>
+		<para>The <literal>raEntityLinkName</literal> is the link name of the RA entity to use. The link to the default RA entity, use the link name <literal>JDBCRA</literal>.</para>
 		
 	</section>
 
