@@ -37,7 +37,7 @@ public interface JdbcTaskExecutionThrowableEvent {
 
 	public static final EventTypeID EVENT_TYPE_ID = new EventTypeID(
 			JdbcTaskExecutionThrowableEvent.class.getSimpleName(),
-			"org.mobicents", "1.0");
+			"org.restcomm", "1.0");
 
 	/**
 	 * Retrieves the {@link Throwable} thrown when executing.

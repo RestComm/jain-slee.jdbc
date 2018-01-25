@@ -39,7 +39,7 @@ public interface JdbcResourceAdaptorSbbInterface {
 	 * the ID of the RA Type
 	 */
 	public static final ResourceAdaptorTypeID RATYPE_ID = new ResourceAdaptorTypeID(
-			"JDBCResourceAdaptorType", "org.mobicents", "1.0");
+			"JDBCResourceAdaptorType", "org.restcomm", "1.0");
 
 	/**
 	 * Creates a new {@link JdbcActivity}.
