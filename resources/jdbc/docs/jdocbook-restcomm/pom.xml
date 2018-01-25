@@ -3,7 +3,7 @@
 	
 	<parent>
 		<artifactId>restcomm-slee-ra-jdbc-docs</artifactId>
-		<groupId>org.mobicents.resources</groupId>
+		<groupId>org.restcomm.resources</groupId>
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 	
