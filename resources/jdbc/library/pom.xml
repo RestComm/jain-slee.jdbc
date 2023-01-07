@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>restcomm-slee-ra-jdbc</artifactId>
 		<groupId>org.restcomm.resources</groupId>
-		<version>7.0.0-SNAPSHOT</version>
+		<version>7.2.0-374</version>
 	</parent>
 	
 	<artifactId>restcomm-slee-ra-jdbc-library</artifactId>
